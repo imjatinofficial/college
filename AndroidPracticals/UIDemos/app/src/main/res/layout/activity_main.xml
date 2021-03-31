@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender" />
+
+    <RadioGroup
+        android:id="@+id/radio_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Male"
+            android:id="@+id/male_radio"
+            android:textSize="32sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Female"
+            android:id="@+id/female_radio"
+            android:textSize="32sp"/>
+
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Courses"
+        style="@style/TextAppearance.AppCompat.Headline"
+        />
+    <RadioGroup
+        android:id="@+id/radio_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MCA"
+            android:id="@+id/mca_radio"
+            android:textSize="32sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="MBA"
+            android:id="@+id/mba_radio"
+            android:textSize="32sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BCA"
+            android:id="@+id/bca_radio"
+            android:textSize="32sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="BBA"
+            android:id="@+id/bba_radio"
+            android:textSize="32sp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="B.Tech(cs)"
+            android:id="@+id/btech_radio"
+            android:textSize="32sp"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Bsc(cs)"
+            android:id="@+id/bsc_radio"
+            android:textSize="32sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:id="@+id/done_btn"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
